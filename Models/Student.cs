@@ -8,11 +8,11 @@ namespace firstApi.Models
     public class Student
     {
 
-        public int Id { get; set; } = 0;
+        public int Id { get; set; } 
 
-        public string Name { get; set; } ="";
+        public string Name { get; set; } 
 
-        public int Roll { get; set; } =0;
+        public int Roll { get; set; } 
         //public int StudentId { get; set; }
         //public string StudentName { get; set; }
 

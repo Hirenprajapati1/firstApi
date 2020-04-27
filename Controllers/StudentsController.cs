@@ -13,8 +13,8 @@ namespace firstApi.Controllers
     [ApiController]
     public class StudentsController : ControllerBase
     {
-        [EnableCors("AllowMyOrigin")]
-
+        //[EnableCors("AllowMyOrigin")]
+        [HttpGet("GetStudents")]
         public IEnumerable<Student>Get()
         {
 
